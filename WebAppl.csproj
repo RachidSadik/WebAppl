@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="WebFormBranchFeatur.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormBranchFeatur.aspx.cs">
+      <DependentUpon>WebFormBranchFeatur.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormBranchFeatur.aspx.designer.cs">
+      <DependentUpon>WebFormBranchFeatur.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
